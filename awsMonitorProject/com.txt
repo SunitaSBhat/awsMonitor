@@ -1,0 +1,8 @@
+//connect to aws instance from aws cli
+ssh -i path/to/your-key.pem ec2-user@your-ec2-public-dns
+// create file 
+vim aws_resource_tracker.sh
+enter script
+to execute file use following commands
+chmod 777 aws_resource_tracker.sh
+./aws_resource_tracker.sh
